@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getMovieCast } from 'services/fetchMovies';
-import { NoCast } from 'Error/NoCast';
+import { getMovieCast } from 'components/services/fetchMovies';
+import { NoCast } from 'components/Error/NoCast';
 import { List, Item, Img, Name, Character } from './Cast.styled';
 
 export const Cast = () => {
